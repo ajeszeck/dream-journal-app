@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import DreamsContainer from './components/DreamsContainer'
 
 class App extends Component {
   render() {
