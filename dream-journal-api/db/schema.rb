@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20180202033719) do
     t.string "content", null: false
     t.date "sleep_date", null: false
     t.bigint "user_id", null: false
+    t.boolean "nightmare", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_dreams_on_user_id"

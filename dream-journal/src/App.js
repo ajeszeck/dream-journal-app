@@ -10,7 +10,7 @@ class App extends Component {
           <h1 className="App-title">Your Dream Journal</h1>
         </header>
         <p className="App-intro">
-        This is where you can record your dreams.
+          This is where you can record your dreams.
         </p>
         <DreamsContainer />
       </div>

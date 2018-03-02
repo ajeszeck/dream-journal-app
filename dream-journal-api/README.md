@@ -1,24 +1,33 @@
-# README
+#Dream Journal App
+### By Anna Jeszeck & Blaine Anderson
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+####Dream Journal API (Ruby on Rails Back-End)
+Models
+  User
+    id
+    name
+    email
+    password
+    timestamps
+  Dream
+    id
+    date
+    content
+    user_Id
+    category (good/bad)
+    timestamps
+  Dreams_Tags
+    dream_id
+    tag_id
+    timestamps
+  Tags
+    id
+    description
+    timestamps
 
-Things you may want to cover:
+  User has_many Dreams
+  Dreams has_one User
+  Dreams have_many Tags
+  Tags have_many Dreams
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Potential Schema](./public/IMG_1045.jpg)
